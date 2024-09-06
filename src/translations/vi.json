@@ -1,4 +1,13 @@
 {
+    "homeheader": {
+        "all": "Tất cả",
+        "at-home": "Tại nhà",
+        "at-hospital": "Tại viện",
+        "healthy": "Sống khỏe",
+        "coop": "Hợp tác",
+        "booking": "Đặt lịch khám",
+        "search": "Tìm kiếm"
+    },
     "common": {
         "add": "Thêm",
         "edit": "Sửa",

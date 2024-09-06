@@ -1,0 +1,85 @@
+.login-background{
+    height: 100vh;
+    background: linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+    // background: linear-gradient(136deg,rgb(115, 121, 238) 0%,rgb(172, 217, 247) 100%);
+
+    .login-container{
+        width: 350px;
+        height: 450px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        //border: 1px solid red;
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+
+        .login-content{
+            padding: 10px;
+
+            .text-login{
+                text-align: center;
+                font-weight: 600;
+                font-size: 25px;
+                padding-top: 10px;
+            }
+            .login-input{
+                margin: 7 0;
+                .custom-input-password{
+                    position: relative;
+                    i{
+                        position: absolute;
+                        right: 5px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .btn-login{
+                width: 100%;
+                margin: 10px 0;
+                height: 35px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                color: white;
+                font-size: 16px;
+                background: linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+            }
+            .forget-pwd{
+                font-size: 12px;
+            }
+
+            .social-login{
+                display: flex;
+                justify-content: center;
+                margin-top:10px ;
+                .google{
+                    font-size: 25px;
+                    background-color: red;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display:  flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin-right: 15px;
+                }
+                .facebook{
+                    font-size: 25px;
+                    background-color: blue;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display:  flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}

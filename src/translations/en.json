@@ -1,4 +1,13 @@
 {
+    "homeheader": {
+        "all": "All",
+        "at-home": "At home",
+        "at-hospital": "At hospital",
+        "healthy": "Healthy",
+        "coop": "Cooperate",
+        "booking": "Medical Booking",
+        "search": "Search"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",

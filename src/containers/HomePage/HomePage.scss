@@ -1,0 +1,94 @@
+
+.slick-prev{
+    // position: relative !important;
+    border: 1px solid #92D7EE !important;
+    border-radius: 7px;
+    left: -15px !important;
+    z-index: 1000;
+    height: 30px !important;
+    width: 30px !important;
+    color: #34929E !important;
+}
+.slick-next{
+    border: 1px solid #92D7EE !important;
+    border-radius: 7px;
+    right: 15px !important;
+    height: 30px !important;
+    width: 30px !important;
+}
+.slick-prev:before,
+.slick-next:before{
+    font-family: 'Montserrat',sans-serif !important;
+    color: #34929E !important;
+}
+.section-share{
+    &.section-specialty{}
+    &.section-outstanding-doctor{
+        background-image: url('../../assets/bg-doctor.png');
+        margin-top: 20px;
+    }
+    .section-body{
+        height: 70%;
+
+        .section-customize{
+            border: 1px solid #f1f1f1;
+            width: 270px !important;
+            height: 290px;
+            border-radius: 10%;
+            padding: 20px;
+            display: flex !important;
+            flex-direction: column ; 
+            align-items: center ;
+            justify-content: space-between ;
+            .bg-image{
+                height: 170px;
+                width: 220px;
+                margin: 20px;
+                background-position: center center ;
+                background-repeat: no-repeat ;
+                background-size: cover ;
+                
+
+                &.section-specialty{
+                    background-image: url('../../assets/co-xuong-khop.png');
+
+                }
+                &.section-facility{
+                    background-image: url('../../assets/logo-csyt.jpg');
+                }
+                &.section-oustanding-doctor{
+                    background-image: url('../../assets/outstanding-doctor.jpg');
+                   // border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+.section-share{
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 170px;
+        padding-bottom: 30px;
+        .section-header{
+            height: 30% !important;
+            padding:20px 0;
+
+            .title-section{
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .btn-section{
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 10px;
+                background-color: #DAF3F6;
+                font-weight: 600;
+                color: #34929E;
+            }
+        }
+        
+    }
+
+}

@@ -1,0 +1,71 @@
+.service-container{
+    text-align: left;
+    width: 110%;
+    padding: 0 170px;
+    
+}
+.service-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.service-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 96px;
+    width: 500px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-image: url('../../../assets/backgound.png');
+}
+
+.service-item span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    color: #333;
+}
+.service-item .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.icon-1{
+    background: url('../../../assets/icon1.png')  no-repeat;
+}
+.icon-2{
+    background: url('../../../assets/icon2.png')  no-repeat;
+}
+.icon-3{
+    background: url('../../../assets/icon3.png')  no-repeat;
+}
+.icon-4{
+    background: url('../../../assets/icon4.png')  no-repeat;
+}
+.icon-5{
+    background: url('../../../assets/icon5.png')  no-repeat;
+}
+.icon-6{
+    background: url('../../../assets/icon6.png')  no-repeat;
+}
+.icon-7{
+    background: url('../../../assets/icon8.png')  no-repeat;
+}
+.icon-8{
+    background: url('../../../assets/icon9.png')  no-repeat;
+}
+.icon-9{
+    background: url('../../../assets/icon10.png')  no-repeat;
+}
+.icon-10{
+    background: url('../../../assets/icon11.png')  no-repeat;
+}
