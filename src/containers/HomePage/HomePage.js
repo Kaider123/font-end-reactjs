@@ -6,6 +6,8 @@ import ForYou from './Section/ForYou';
 import Service from './Section/Service';
 import MedicalFacility from './Section/MedicalFacility';
 import OutstandingDoctor from './Section/OutstandingDoctor';
+import About from './Section/About'
+import Homefooter from './Section/Homefooter';
 import './HomePage.scss'
 import { FormattedMessage } from 'react-intl';
 
@@ -16,20 +18,21 @@ class HomePage extends Component {
     render() {
         let settings = {
             dots: false,
-            infinite: true,
+            infinite: false,
             speed: 500,
             slidesToShow: 4,
             slidesToScroll: 4,
         };
         return (
             <div>
-                <HomeHeader />
+                <HomeHeader isShowBanner={true} />
                 <ForYou />
                 <Service />
                 <Specialty settings={settings} />
                 <MedicalFacility settings={settings} />
                 <OutstandingDoctor settings={settings} />
-                <div style={{ height: '300px' }}></div>
+                <About />
+                <Homefooter />
             </div>
         );
     }
